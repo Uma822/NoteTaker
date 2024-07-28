@@ -27,8 +27,6 @@ import java.util.Date;
         protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
             // TODO Auto-generated method stub
             try {
-
-
                 String title=request.getParameter("title");
                 String content=request.getParameter("content");
                 int noteId=Integer.parseInt(request.getParameter("noteId").trim());
